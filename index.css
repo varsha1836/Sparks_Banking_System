@@ -1,0 +1,157 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://cmscollege.ac.in/wp-content/uploads/2018/08/banking.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    min-height: 100vh;
+}
+
+header {
+    padding: 20px;
+    background-color: rgba(142, 142, 233, 0.3);
+}
+
+header h1 {
+    color: cornsilk;
+    text-align: center;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 15px;
+    left: 620px;
+    margin: 20px;
+}
+
+header h3 {
+    color: whitesmoke;
+    text-align: center;
+    position: absolute;
+    left: 600px;
+    top: 80px;
+}
+
+header #icon {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: 0;
+    left: 450px;
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgba(229, 231, 236, 0.5);
+    height: 40px;
+    padding-top: 5px;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    border: 2px solid rgb(135, 153, 235);
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    color: snow;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 20px 20px 20px;
+    top: 50%;
+    font-weight: bold;
+    margin: 0px 100px 0px 50px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: rgba(44, 44, 138, 0.733);
+    background-color: rgb(240, 242, 247);
+    border-radius: 25px;
+}
+
+main {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+main #user {
+    margin-left: 20%;
+    margin-top: 10%;
+    height: 200px;
+    width: 150;
+}
+
+main #tran {
+    margin-left: 28%;
+    margin-top: 12%;
+    height: 200px;
+    width: 150;
+}
+
+main .Button {
+    border-radius: 50px;
+    background-color: #87cefa;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    cursor: pointer;
+    margin: auto;
+}
+
+main #trans {
+    position: absolute;
+    right: 330px;
+    top: 550px;
+}
+
+main #use {
+    position: absolute;
+    left: 360px;
+    top: 550px;
+}
+
+main .Button:hover {
+    color: rgba(44, 44, 138, 0.733);
+    background-color: rgb(240, 242, 247);
+}
+
+footer {
+    background-color: rgba(84, 124, 175, 0.5);
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+span {
+    color: rgb(209, 65, 65);
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 20px;
+}
+
+footer #firstpara {
+    color: cornsilk;
+    background-color: rgba(81, 164, 180, 0.7);
+}
+
+footer #secondpara {
+    color: rgba(199, 24, 24, 0.7);
+    background-color: rgb(255, 250, 250, 0.7);
+}
+
+.solid {
+    border-top: 2px rgba(142, 142, 233, 0.3);
+}
+
