@@ -30,11 +30,11 @@
     <table class="table table-hover table-striped table-condensed table-bordered">
         <thead>
             <tr>
-                <th class="text-center">S.No.</th>
+                <th class="text-center">Trx ID</th>
                 <th class="text-center">Sender</th>
                 <th class="text-center">Receiver</th>
                 <th class="text-center">Amount</th>
-                <th class="text-center">Date</th>
+                <th class="text-center">Date and Time</th>
             </tr>
         </thead>
         <tbody>
